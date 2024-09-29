@@ -1,0 +1,21 @@
+<p>directive works!</p>
+<h2>Directive Examples</h2>
+
+<div *ngIf="age>=18">
+    <h3> you are eligible for vote</h3>
+</div>
+<div *ngIf="age<=18">
+    <!-- <h3> you are  not eligible for vote</h3>
+</div>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, sapiente.</p>
+<p *ngIf="isShow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex reiciendis qui quas minima alias veritatis consequatur pariatur praesentium ducimus!</p>
+<button type="button"(click)="displayMore()">Read More</button>
+<button type="button"(click)="removeContent()">Hide</button>
+
+<h3>Examples of ngIf Else</h3>
+<div>
+<button *ngIf="!isloggedin;else logoutBlock"type="button"(click)="login()">Login</button>
+</div>
+<ng-template #logoutBlock>
+<button type="button"(click)="logoutBlock()">Logout</button>
+</ng-template> -->

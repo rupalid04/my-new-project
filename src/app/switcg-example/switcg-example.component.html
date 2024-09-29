@@ -1,0 +1,23 @@
+<p>switcg-example works!</p>
+<h4>Switch Example</h4>
+ <div class="container border"[ngSwitch]="orderStatus">
+    <div *ngSwitchCase ="'pending'">
+        <h6>Your order is pending</h6>
+    </div>
+    <div *ngSwitchCase ="'processing'">
+        <h6>Your order is processing</h6>
+    </div>
+    <div *ngSwitchCase = "'shipped'">
+        <h6>Your order is shipped</h6>
+    </div>
+    <div *ngSwitchCase = "'delivered'">
+        <h6>Your order is delivered</h6>
+    </div>
+    <div *ngSwitchCase = "'cancelled'">
+        <h6>Your order is cancelled</h6>
+    </div>
+     <div *ngSwitchDefault>
+        <h6> Unknown Status</h6>
+    </div> 
+
+</div> 

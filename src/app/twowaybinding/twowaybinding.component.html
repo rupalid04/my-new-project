@@ -1,0 +1,41 @@
+<p>twowaybinding works!</p>
+<!-- <h2>Two way databinding</h2>
+<div>
+    <label for ="id1">Number1</label>
+    <input type="number" name="pnum" id="id1" [(ngModel)]="num1">
+</div>
+<div>
+    <label for ="id2">Number2</label>
+    <input type="number" name="pnum" id="id2" [(ngModel)]="num2">
+</div>
+<div>
+    <label for ="id3">Result</label>
+    <input type="number" name="presult" id="id3" [(ngModel)]="result">
+</div>
+
+<br>
+<button type="button"(click)="substract()">substract</button>
+<button type="button"(click)="add()">Add</button>
+<button type="button"(click)="multiply()">Multiply</button>
+<button type="button"(click)="divide()">Divide</button> -->
+
+<h2>Price calculater</h2>
+<div>
+    <label for ="id4">Price</label>
+    <input type="text" name="price" id="id4" [(ngModel)]="price" (input)="tprice()">
+</div>
+<div>
+    <label for ="id5">Quantity</label>
+    <input type="text" name="pquantity" id="id5" [(ngModel)]="quantity" (input)="tprice()">
+</div>
+<div>
+    <label for ="id6">Extradiscount</label>
+    <input type="text" name="ediscount" id="id6" [(ngModel)]="discount" (input)="tprice()">
+</div>
+<div>
+    <label for ="id7">Total Price</label>
+    <input type="text" name="tprice" id="id7" [(ngModel)]="totalprice" disabled>
+</div>
+
+
+
