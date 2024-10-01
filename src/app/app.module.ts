@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { DirectiveComponent } from './directive/directive.component';
 import { StructuralDirectiveComponent } from './structural-directive/structural-directive.component';
 import { SwitcgExampleComponent } from './switcg-example/switcg-example.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { SwitcgExampleComponent } from './switcg-example/switcg-example.componen
     DirectiveComponent,
     StructuralDirectiveComponent,
     SwitcgExampleComponent,
+    LoginComponent,
     
     
   ],
